@@ -2,7 +2,7 @@
 <html lang="es" xmlns="http://www.w3.org/1999/xhtml" ng-app="app">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <!--<base href="/">-->
+    <base href="/">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -15,31 +15,26 @@
 
     <link rel="stylesheet" href="/" type="text/css" />-->
 </head>
-<body>   
-    <div class="">
-        <div id="content" class="" role="main">
-            <div class="">
-                <div class="">
-                    <div class="">
-                        <div class="">
-                            <div class="" ng-view></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class=""></div>
+<body>       
+    <div id="content" role="main">          
+        <div class="" ng-view></div>
+    </div>   
+    <pie></pie>
 
     <!-- Librerías Angular-->
     <script type="text/javascript" src="./common/Scripts/angular.js"></script>
+    <script type="text/javascript" src="./common/Scripts/angular-route.js"></script>
     <!--minify de angular-->
     <!--<script type="text/javascript" src="common/Scripts/angular.min.js"></script>-->
     <script type="text/javascript" src="./common/Scripts/angular-mocks.js"></script>
 
     <!-- Librerías propias del proyecto -->
     <script type="text/javascript" src="./Aplicacion/app.js"></script>
-    <script type="text/javascript" src="./Aplicacion/app.constants.js"></script> 
+    <script type="text/javascript" src="./Aplicacion/app.constants.js"></script>
+    <script type="text/javascript" src="./Aplicacion/route.js"></script>
+    <script type="text/javascript" src="./Aplicacion/Pie/pie.directive.js"></script>
+    <script type="text/javascript" src="./Aplicacion/Contenido/Login/login.controller.js"></script>  
+    <script type="text/javascript" src="./Aplicacion/Contenido/Login/login.factory.js"></script>  
 
 
 </body>

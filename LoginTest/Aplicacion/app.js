@@ -2,7 +2,9 @@
 angular
     .module('app',
     [
-		'cabecera.Directiva'
+        'login.Routes',
+		'pie.Directiva',
+        'login.Controladores'
     ])
     .config(function () {
 

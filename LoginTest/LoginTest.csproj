@@ -66,6 +66,14 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Aplicacion\Contenido\Login\login.controller.js" />
+    <Content Include="Aplicacion\Contenido\Login\login.factory.js" />
+    <Content Include="Aplicacion\Contenido\Login\login.html" />
+    <Content Include="Aplicacion\Pie\pie.directive.js" />
+    <Content Include="Aplicacion\Pie\pie.html" />
+    <Content Include="Aplicacion\route.js" />
+    <Content Include="common\Scripts\angular-route.js" />
+    <Content Include="common\Scripts\angular-route.min.js" />
     <Content Include="packages.config" />
     <Content Include="common\Scripts\angular.min.js.map" />
     <None Include="Web.Debug.config">
@@ -108,10 +116,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Aplicacion\Contenido\" />
-    <Folder Include="Aplicacion\Pie\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
